@@ -1,0 +1,147 @@
+<html>
+
+<head>
+	<title>PvPHub</title>
+	<link rel="shortcut icon" type="image/ico" href="./assets/images/pvphub.ico"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow"/>
+
+    <meta name="description" content="PvPHub">
+    <meta name="keywords" content="1.16+ PvP Server, feature rich. Offering many different servers and services. Events and prizes.">
+    <meta name="author" content="MattMX">
+    <link rel="icon" href="./assets/images/pvphub.ico"> 
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.pvphub.me">
+    <meta property="og:title" content="PvPHub">
+    <meta property="og:description" content="1.16+ PvP Server, feature rich. Offering many different servers and services. Events and prizes.">
+    <meta property="og:image" content="./assets/images/pvphub.ico">
+    <meta name="theme-color" content="#12345">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.pvphub.me">
+    <meta property="twitter:title" content="PvPHub">
+    <meta property="twitter:description" content="1.16+ PvP Server, feature rich. Offering many different servers and services. Events and prizes.">
+    <meta property="twitter:image" content="./assets/images/pvphub.ico">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/bedc2eb440.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MattMX</title>
+</head>
+
+<body>
+    <div class="sidebar left">
+        <hr width="100px">
+        <hr width="50px">
+        <div class="_ip">pvphub.me</div>
+        <hr width="25px">
+    </div>
+    <div class="header" id="#header">
+        <div id="loading"></div>
+        <a href="index.html" class="logo">PvPHub</a>
+        <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="https://store.pvphub.me">Store</a>
+            <a href="https://discord.com/invite/mjytEczsbR" target="_blank">Discord</a>
+            <a href="javascript:void(0);" class="icon" onclick="topbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div id="bg" class="bg-first"></div>
+    <section id="intro" data-color="first">
+        <div class="center">
+            <img id="bglogo" src="./assets/images/pvphub.png">
+            <h1>PvPHub</h1>
+            <p>A new way to experience Minecraft PvP.</p>
+            <button id="#jointoday" onclick="scrollToSection('join')">Join today</button>
+        </div>
+    </section>
+    <section id="features" data-color="two">
+        <div class="middle">
+            <h1>Features</h1>
+            <p>We're feature rich, there's something for everyone.</p>
+            <div class="features">
+                <div class="feature">
+                    <img src="./assets/images/code.png">
+                    <div class="info">
+                        <h1>Custom Coded</h1>
+                        <p>We have enough experience and knowledge to make sure all the server operates smoothly.</p>
+                        <p>Thanks to our devs and staff team, we can provide the best possible services to you all.</p>
+                        <p>We feature many network-wide features such as <b>fast crystals</b> which we are famous for.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="./assets/images/prac.png">
+                    <div class="info">
+                        <h1>Practice Server</h1>
+                        <p>Need to train your skills? We have a server dedicated to just that!</p>
+                        <p>We have a custom kit system, arenas and tpa, allowing you to have complete free-roam over how
+                            you choose to practice.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="./assets/images/survival.png">
+                    <div class="info">
+                        <h1>Survival Server</h1>
+                        <p>We also have the perfect place for you to truly test your PvP skills.</p>
+                        <p>Our very own survival server features an item shop, a pvp area that resets, and gambling!</p>
+                        <p>Gear isn't too hard to come by and it's super fun</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="./assets/images/event.png">
+                    <div class="info">
+                        <h1>Events</h1>
+                        <p>We're lucky enough to own our own event server!</p>
+                        <p>Here, you can compete against other players in differnet PvP gamemodes in order to earn
+                            in-game and <b>cash</b> prizes!</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="./assets/images/versus.png">
+                    <div class="info">
+                        <h1>Versus Server</h1>
+                        <p>Our soon to be crown jewel.</p>
+                        <p>A sophisticated system where you can challenge your friends, random opponants.</p>
+                        <p>Featuring completely custom maps, with the ability to create whatever kit you want, and
+                            customize match settings, possibilities are endless.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sponsors" data-color="three">
+        <div class="center">
+            <h1>Sponsors</h1>
+            <p>A great thanks to our sponsors for making this server possible!</p>
+            <hr width="50px"><br><br>
+            <div class="sponsor" onclick="openUrl('https://billing.apexminecrafthosting.com/aff.php?aff=8274')">
+                <img src="./assets/images/New Doug Render_Branding Board.webp" class="doug">
+                <img src="./assets/images/apex-hosting-logo.png" height="40px">
+                <p>Apex Hosting is an American owned company that was founded in 2013 to deliver the highest level of
+                    customer support to our minecraft server hosting clients.
+                    Our competitive advantage is the size and quality of our 24/7 technical support team.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="join" data-color="four">
+        <div class="center">
+            <h1>Join Us</h1>
+            <button class="_ip">Click to start your adventure</button>
+            <h3>pvphub.me</h3>
+        </div>
+    </section>
+</body>
+
+</html>
