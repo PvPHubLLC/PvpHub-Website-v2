@@ -60,9 +60,21 @@ a:active {
     text-decoration: none;
 }
 
-body::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar {
+    width: 20px;
 }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--button);
+    transition: ease-in 10s
+}
+
 
 .header {
     overflow: hidden;
